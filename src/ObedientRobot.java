@@ -14,6 +14,9 @@ if(color.equalsIgnoreCase("blue")) {
 else if(color.equalsIgnoreCase("red")) {
 	rob.setPenColor(Color.red);
 }
+else if(color.equalsIgnoreCase("green")) {
+	rob.setPenColor(Color.green);
+}
 String shape = JOptionPane.showInputDialog("What shape do you want to draw?");
 if(shape.equalsIgnoreCase("Square")) {
 	drawSquare(rob);
